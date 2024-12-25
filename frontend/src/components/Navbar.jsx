@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
 import { LogOut, MessageSquare, Settings, User } from "lucide-react";
-import Modal from "react-modal"; // Import react-modal
+import Modal from 'react-modal';
 import toast from "react-hot-toast";
 
 // Make sure Modal root is attached to the document body
